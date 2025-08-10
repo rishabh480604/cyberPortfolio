@@ -22,6 +22,7 @@ const TerminalHandler = ( ) => {
 <TerminalOutput>              ██║      ██╔══╝   ██║╚██╗██║    ██║    ██╔══╝   ██╔══╗█╚╗           </TerminalOutput>,
 <TerminalOutput>              ╚██████╗ ███████╗ ██║ ╚████║    ██║    ███████╗ ██║  ║██║           </TerminalOutput>,
 <TerminalOutput>               ╚═════╝ ╚══════╝ ╚═╝  ╚═══╝    ╚═╝    ╚══════╝ ╚═╝  ╚══╝           </TerminalOutput>,
+
 <TerminalOutput>NAME                                                                               </TerminalOutput>,
 <TerminalOutput>                              Sahil Sachin Borse                                  </TerminalOutput>,
 <TerminalOutput>SYNOPSIS                                                                           </TerminalOutput>,
@@ -37,7 +38,8 @@ const TerminalHandler = ( ) => {
 <TerminalOutput>- code_logs - projects developed                                                </TerminalOutput>,
 <TerminalOutput>- ops_hist  - work experience of accessed user                                  </TerminalOutput>,
 <TerminalOutput>- nldg_base - education of accessed user                                        </TerminalOutput>,
-<TerminalOutput>- verf_cred - certifications of accessed user                                   </TerminalOutput>
+<TerminalOutput>- verf_cred - certifications of accessed user                                   </TerminalOutput>,
+<TerminalOutput>- connect - connect to accessed user                                            </TerminalOutput>,
   ]);
   const [init,setInit]=useState(terminalLineData);
   function onInput (input) {
@@ -61,6 +63,10 @@ const TerminalHandler = ( ) => {
     
   }else if (input.toLocaleLowerCase().trim() === 'verf_cred') {
     navigate('/certification');
+    
+    
+  }else if (input.toLocaleLowerCase().trim() === 'connect') {
+    navigate('/contact');
     
     
   }else if (input.toLocaleLowerCase().trim() === 'clear') {

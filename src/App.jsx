@@ -13,6 +13,8 @@ import { Outlet } from "react-router";
 import MatrixRain from "./components/Matrix";
 import TerminalHandler from "./components/TerminalHandler";
 import TerminalAlerts from "./components/TerminalAlerts";
+import ContactUs from "./components/ContactUs";
+
 
 
 function App() {
@@ -28,8 +30,10 @@ function App() {
           <Route path="/experience" element={<Exp />} />
           <Route path="/education" element={<Education />} />
           <Route path="/certification" element={<Certification />} />
+          <Route path="/contact" element={<ContactUs />} />
 
         </Route>
+        
         {/* <Route path="about" element={<TerminalHandler />} /> */}
         
       </Routes>

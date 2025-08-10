@@ -1,7 +1,9 @@
 import React from 'react'
 import MatrixRain from './Matrix'
-import TerminalHandler from './TerminalHandler'
+
 import { Outlet } from 'react-router'
+
+import TaskbarFooter from './TaskbarFooter'
 const Dashboard = () => {
   return (
     <div style={{ position: 'relative', width: '100vw', height: '100vh', overflow: 'hidden' }}>
@@ -38,6 +40,7 @@ const Dashboard = () => {
       {/* <TerminalHandlr /> */}
       <Outlet/>
     </div>
+    <TaskbarFooter/>
   </div>
   )
 }
