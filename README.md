@@ -1,10 +1,10 @@
 
 # Setup Instruction for localhost
 
- -> clone /download the repository
- -> on repository root folder run "nom install"
-     wait till dependecny finish
--> run "npm run dev"
+### clone /download the repository
+### on repository root folder run "nom install"
+###   wait till dependecny finish
+### run "npm run dev"
 # Other Guideines
 ### If any issue feel free to contact : rishabh480604@gmail.com
 ### Can conttribute or give suggestion
