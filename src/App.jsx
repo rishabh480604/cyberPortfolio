@@ -1,7 +1,7 @@
 import React from "react";
 import TerminalsGrid from "./components/ContactUs";
 import "./App.css"; // Add grid/flex styles!
-import { BrowserRouter, Routes, Route } from "react-router";
+import { HashRouter, Routes, Route } from "react-router";
 
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
@@ -21,7 +21,7 @@ function App() {
 
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Dashboard />} >
           <Route index element={<TerminalHandler/>}/>
@@ -37,7 +37,7 @@ function App() {
         {/* <Route path="about" element={<TerminalHandler />} /> */}
         
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
