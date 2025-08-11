@@ -34,11 +34,11 @@ const TerminalHandler = ( ) => {
 <TerminalOutput>tools for attack detection and analysis.  Proficient in frameworks like NIST CSF</TerminalOutput>,
 <TerminalOutput>and tools like Splunk, Flask, and SentinelOne.                                  </TerminalOutput>,
 <TerminalOutput>OPTIONS                                                                            </TerminalOutput>,
-<TerminalOutput>- sys_cap   - technical skills of accessed user                                 </TerminalOutput>,
-<TerminalOutput>- code_logs - projects developed                                                </TerminalOutput>,
-<TerminalOutput>- ops_hist  - work experience of accessed user                                  </TerminalOutput>,
-<TerminalOutput>- nldg_base - education of accessed user                                        </TerminalOutput>,
-<TerminalOutput>- verf_cred - certifications of accessed user                                   </TerminalOutput>,
+<TerminalOutput>- tech_scan   - technical skills of accessed user                                 </TerminalOutput>,
+<TerminalOutput>- repo_list - projects developed                                                </TerminalOutput>,
+<TerminalOutput>- exp_log  - work experience of accessed user                                  </TerminalOutput>,
+<TerminalOutput>- edu_query - education of accessed user                                        </TerminalOutput>,
+<TerminalOutput>- cert_check - certifications of accessed user                                   </TerminalOutput>,
 <TerminalOutput>- connect   - connect to accessed user                                            </TerminalOutput>,
 <TerminalOutput>- clear     - clear the terminal                                                </TerminalOutput>,
 <TerminalOutput>- help      - manual of Sahil System                                            </TerminalOutput>,
@@ -49,21 +49,21 @@ const TerminalHandler = ( ) => {
     
     // console.log(`New terminal input received: '${input}'`);
     ld.push(<TerminalInput>{input}</TerminalInput>);
-  if (input.toLocaleLowerCase().trim() === 'sys_cap') {
+  if (input.toLocaleLowerCase().trim() === 'tech_scan') {
    
     navigate("/skill");
     
-  } else if (input.toLocaleLowerCase().trim() === 'code_logs') {
+  } else if (input.toLocaleLowerCase().trim() === 'repo_list') {
     navigate('/projects');
     
-  } else if (input.toLocaleLowerCase().trim() === 'ops_hist') {
+  } else if (input.toLocaleLowerCase().trim() === 'exp_log') {
     navigate('/experience');
     
-  } else if (input.toLocaleLowerCase().trim() === 'nldg_base') {
+  } else if (input.toLocaleLowerCase().trim() === 'edu_query') {
     navigate('/education');
     
     
-  }else if (input.toLocaleLowerCase().trim() === 'verf_cred') {
+  }else if (input.toLocaleLowerCase().trim() === 'cert_check') {
     navigate('/certification');
     
     
@@ -101,7 +101,7 @@ const TerminalHandler = ( ) => {
     // id="mat"
     >
       <Terminal
-        name="Sahil Sachin Borse System"
+        name="Terminal"
         height='80vh'
         colorMode={ColorMode.Dark}
         onInput={onInput}
