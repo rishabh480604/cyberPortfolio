@@ -46,7 +46,7 @@ const Certification = () => {
   <div className="container mx-auto ">
     <div className="section-title mb-8">
       <h2 className=" text-xl relative after:content-[''] after:inline-block after:w-[120px] after:h-px after:bg-[#4ceb95] after:my-[4px] after:mx-[10px]">Certifications & Badges</h2>
-      <p className="gap-x-6 gap-y-0 text-3xl font-bold">MY BADGES</p>
+      <p className="gap-x-6 gap-y-0 text-3xl font-bold">BADGES</p>
 
     </div>
     <div className="grid gap-5 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 m-1">
