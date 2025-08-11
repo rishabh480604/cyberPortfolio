@@ -58,7 +58,7 @@ const ContactUs = () => {
             <div className="w-[12px] h-[12px] rounded-full bg-[#27c93f]"></div>
 
           </div>
-          <div className="text-center">Contact With Me</div>
+          <div className="text-center">Connect With Me</div>
           {/* <div className="w-[54px]"></div> */}
 
         </div>

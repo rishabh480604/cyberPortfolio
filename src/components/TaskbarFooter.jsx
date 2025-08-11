@@ -3,7 +3,7 @@ import { FaInstagram, FaTwitter, FaLinkedin, FaGithub, FaWindows, FaMailchimp , 
 import { useEffect } from "react";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-
+import { social } from "../assets/database";
 const TaskbarFooter = () => {
   const navigate= useNavigate();
   const [dateTime, setDateTime] = useState({ time: "", date: "" });
@@ -30,12 +30,11 @@ const TaskbarFooter = () => {
 
   
   const links = [
-    { icon: <FaInstagram size={30} />, url: "https://instagram.com/yourprofile" ,name: "Instagram" },
-    { icon: <FaTwitter size={30} />, url: "https://twitter.com/yourprofile" , name: "Twitter" },
-    { icon: <FaLinkedin size={30  } />, url: "https://linkedin.com/in/yourprofile" , name: "LinkedIn" },
-    { icon: <FaGithub size={30} />, url: "https://github.com/yourprofile" , name: "GitHub" },
-    { icon: <FaMailchimp size={30} />, url: "https://gmail.com/yourprofile" , name: "Gmail" },
-    { icon: <FaBook size={30}/>, url: "https://gmail.com/yourprofile", name: "Resume" } 
+    { icon: <FaInstagram size={30} />, url: social.instagram ,name: "Instagram" },
+    { icon: <FaLinkedin size={30  } />, url: social.linkedIn , name: "LinkedIn" },
+    { icon: <FaGithub size={30} />, url: social.gitHub , name: "GitHub" },
+    { icon: <FaMailchimp size={30} />, url: social.mail , name: "Gmail" },
+    { icon: <FaBook size={30}/>, url: social.resume, name: "Resume" } 
 
   ];
 

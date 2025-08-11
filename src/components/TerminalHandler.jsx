@@ -39,7 +39,9 @@ const TerminalHandler = ( ) => {
 <TerminalOutput>- ops_hist  - work experience of accessed user                                  </TerminalOutput>,
 <TerminalOutput>- nldg_base - education of accessed user                                        </TerminalOutput>,
 <TerminalOutput>- verf_cred - certifications of accessed user                                   </TerminalOutput>,
-<TerminalOutput>- connect - connect to accessed user                                            </TerminalOutput>,
+<TerminalOutput>- connect   - connect to accessed user                                            </TerminalOutput>,
+<TerminalOutput>- clear     - clear the terminal                                                </TerminalOutput>,
+<TerminalOutput>- help      - manual of Sahil System                                            </TerminalOutput>,
   ]);
   const [init,setInit]=useState(terminalLineData);
   function onInput (input) {
