@@ -44,11 +44,11 @@ const skillsList=[];
 
 const experienceList=[];
 const social={
-  instagram:"https://instagram.com/sahil__borse",
-  linkedIn:"https://linkedin.com/in/sahillborse",
-  gitHub:"https://github.com/Nucl3arAt0m",
-  mail:"sahilllborse@gmail.com",
-  resume:"https://drive.google.com/file/d/1JAPK5xT7D3CjS6k5Y8h7GIckZgbdR7qZ/view"
+  instagram:"https://instagram.com/anonymous",
+  linkedIn:"https://linkedin.com/in/anonymous",
+  gitHub:"https://github.com/anonymous",
+  mail:"anonymous@gmail.com",
+  resume:"https://drive.google.com/file/d/1vddQnbKuTrobmWn2TrCwG9Uj-WTOuPbo/view?usp=sharing"
 };
 
 export {

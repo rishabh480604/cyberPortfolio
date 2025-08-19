@@ -24,7 +24,7 @@ const TerminalHandler = ( ) => {
 <TerminalOutput>               ╚═════╝ ╚══════╝ ╚═╝  ╚═══╝    ╚═╝    ╚══════╝ ╚═╝  ╚══╝           </TerminalOutput>,
 
 <TerminalOutput>NAME                                                                               </TerminalOutput>,
-<TerminalOutput>                              Sahil Sachin Borse                                  </TerminalOutput>,
+<TerminalOutput>                              Anonymous                                            </TerminalOutput>,
 <TerminalOutput>SYNOPSIS                                                                           </TerminalOutput>,
 <TerminalOutput>Cybersecurity  professional  skilled  in  threat  intelligence ,  vulnerability </TerminalOutput>,
 <TerminalOutput>assessment, and SIEM integration, with hands-on experience.                     </TerminalOutput>,                                          
@@ -33,15 +33,15 @@ const TerminalHandler = ( ) => {
 <TerminalOutput>scanning, and SIEM integration. Built real-time dashboards, honeypots,and custom</TerminalOutput>,
 <TerminalOutput>tools for attack detection and analysis.  Proficient in frameworks like NIST CSF</TerminalOutput>,
 <TerminalOutput>and tools like Splunk, Flask, and SentinelOne.                                  </TerminalOutput>,
-<TerminalOutput>OPTIONS                                                                            </TerminalOutput>,
-<TerminalOutput>- tech_scan   - technical skills of accessed user                                 </TerminalOutput>,
-<TerminalOutput>- repo_list - projects developed                                                </TerminalOutput>,
-<TerminalOutput>- exp_log  - work experience of accessed user                                  </TerminalOutput>,
-<TerminalOutput>- edu_query - education of accessed user                                        </TerminalOutput>,
-<TerminalOutput>- cert_check - certifications of accessed user                                   </TerminalOutput>,
-<TerminalOutput>- connect   - connect to accessed user                                            </TerminalOutput>,
-<TerminalOutput>- clear     - clear the terminal                                                </TerminalOutput>,
-<TerminalOutput>- help      - manual of Sahil System                                            </TerminalOutput>,
+<TerminalOutput>OPTIONS(Type in terminal to access it Ex tech_scan)                             </TerminalOutput>,
+<TerminalOutput>  tech_scan   - technical skills of accessed user                                 </TerminalOutput>,
+<TerminalOutput>  repo_list - projects developed                                                </TerminalOutput>,
+<TerminalOutput>  exp_log  - work experience of accessed user                                  </TerminalOutput>,
+<TerminalOutput>  edu_query - education of accessed user                                        </TerminalOutput>,
+<TerminalOutput>  cert_check - certifications of accessed user                                   </TerminalOutput>,
+<TerminalOutput>  connect   - connect to accessed user                                            </TerminalOutput>,
+<TerminalOutput>  clear     - clear the terminal                                                </TerminalOutput>,
+<TerminalOutput>  help      - manual of Sahil System                                            </TerminalOutput>,
   ]);
   const [init,setInit]=useState(terminalLineData);
   function onInput (input) {
@@ -87,7 +87,7 @@ const TerminalHandler = ( ) => {
     ld.push(init);
     // console.log(ld);
   }else{
-    ld.push(<TerminalOutput>Unrecognized command for help type  'sahil -help'</TerminalOutput>);
+    ld.push(<TerminalOutput>Unrecognized command for help type  'help'</TerminalOutput>);
     
   }
   setTerminalLineData(ld);

@@ -3,11 +3,16 @@
 
 ### clone /download the repository
 ### on repository root folder run "nom install"
-###   wait till dependecny finish
+###   wait till dependency finish
 ### run "npm run dev"
+### on Homepage type the command given in Option to access the page
+### Backspace can also be used to go back
+### Explore other buttons also
 # Other Guideines
 ### If any issue feel free to contact : rishabh480604@gmail.com
-### Can conttribute or give suggestion
+### Can contribute or give suggestion
+
+# Data in Portfolio is sample data(assumption) to create the theme
 
 # React + Vite
 
